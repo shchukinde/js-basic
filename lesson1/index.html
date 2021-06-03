@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson1</title>
+    <script async src="./task1.js"></script>
+    <script async src="./task2.js"></script>
+    <script async src="./task3.js"></script>
+</head>
+
+<body>
+    <h2>Задание 4</h2>
+    <b>defer</b><br>
+    1. Скрипты с defer никогда не блокируют страницу.<br>
+    2. Скрипты с defer всегда выполняются, когда дерево DOM готово, но до события DOMContentLoaded.<br>
+    3. Отложенные с помощью defer скрипты сохраняют порядок относительно друг друга, как и обычные скрипты.<br><br>
+
+    <b>async</b><br>
+    1. Содержимое страницы отображается сразу же : async его не блокирует.<br>
+    2. DOMContentLoaded может произойти как до, так и после async, никаких гарантий нет.<br>
+    3. Асинхронные скрипты не ждут друг друга. Меньший скрипт small.js идёт вторым, но скорее всего загрузится
+    раньше<br>
+    long.js, поэтому и запустится первым. То есть, скрипты выполняются в порядке загрузки.<br>
+
+</body>
