@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson2</title>
+    <script async src="./task3.js"></script>
+    <script async src="./task4.js"></script>
+    <script async src="./task5.js"></script>
+    <script async src="./task6.js"></script>
+    <script async src="./task8.js"></script>
+</head>
+
+<body>
+    <h2>Задание 1</h2>
+    <b>Префиксная форма инкремента\декремента возвращает новое значение, в то время как постфиксная форма возвращает
+        старое </b><br>
+    var a = 1, b = 1, c, d;<br>
+    c = ++a; alert(c); // 2 , т.к. префиксный инкремент, "c" присваивается новое значение "a", т.е. 1+1 = 2<br>
+    d = b++; alert(d); // 1 , т.к. постфиксный инкремент, "d" присваивается старое значение "b", т.е. 1, но b при этом
+    стало 1+1 = 2<br>
+    c = (2+ ++a); alert(c); // 5, т.к. т.к. префиксный инкремент "a", т.е. a = 2+1 = 3, c = 2 + 3 = 5<br>
+    d = (2+ b++); alert(d); // 4, т.к. постфиксный инкремент "b", который возвращает 2 и получается d = 2 + 2 = 4, но
+    при этом b = 2 + 1<br>
+    alert(a); // 3<br>
+    alert(b); // 3<br> <br>
+
+    <h2>Задание 2</h2>
+    <b>Префиксная форма возвращает новое значение, в то время как постфиксная форма возвращает
+        старое </b><br>
+    var a = 2; <br>
+    var x = 1 + (a *= 2); // 5 т.к. x = 1 + (2 + 2) = 1 + 4 = 5 <br>
+
+    <h2>Задание 7</h2>
+    <b>Результат сравнения null и 0 будет false, т.к. null - это просто специальное значение, которое представляет собой
+        «ничего», «пусто» или «значение неизвестно», а 0 это число</b><br>
+
+</body>
