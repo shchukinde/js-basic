@@ -1,0 +1,1 @@
+for (var count = 1; count <= 10; alert(`Задание 3 \n ${count++}`));
